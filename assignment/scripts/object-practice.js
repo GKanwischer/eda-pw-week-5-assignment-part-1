@@ -10,6 +10,11 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: 'Garret',
+  lastName: 'Kanwischer',
+  hasSiblings: true,
+  shoeCount: 4,
+  favThreeFood: [ 'Pizza', 'Fetteccini', 'Chicken Parm', 'Omelettes']
 };
 console.log('A little about me:', me);
 
@@ -19,6 +24,9 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+
+let fullName = me.firstName + " " + me.lastName;
+console.log( 'My full name is', fullName );
 
 
 
