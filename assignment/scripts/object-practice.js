@@ -34,7 +34,7 @@ console.log( 'My full name is', fullName );
 */
 
 console.log( me.favThreeFood[0] );
-console.log( me.favThreeFood[2] );
+console.log( me.favThreeFood[ me.favThreeFood.length - 1 ] );
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
